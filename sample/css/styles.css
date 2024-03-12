@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "trebuchet MS", sans-serif,tahoma;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.header{
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(black,gray) ;
+	margin: 0;
+	padding: 10px;
+}
+
+.menuContainer{
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+
+.toggle-menu{
+	width: 25px;	
+	height: 5px;
+	background: white;
+	margin-top: 4px;
+}
+.list-items{
+	padding: 10px;
+	box-sizing: border-box;
+}
+#sub-menus{
+	background: whitesmoke;
+	text-align: center;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+#sub-menus > .list-items{
+	list-style: none;
+	display: block;
+	padding: 0;
+}
+#sub-menus > .list-items li:hover{
+	background: black;
+	color: yellow;
+}
